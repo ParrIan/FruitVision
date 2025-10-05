@@ -2,6 +2,8 @@
 
 A complete fruit detection system using YOLOv8 for real-time object detection via webcam. This project takes fruit images with white backgrounds, augments them onto random indoor backgrounds, trains a YOLOv8 model, and enables real-time detection.
 
+![](https://github.com/Your_Repository_Name/gif.gif)
+
 ## Overview
 
 This project implements an end-to-end pipeline for fruit detection:
