@@ -37,7 +37,7 @@ pip install torch torchvision ultralytics opencv-python pillow numpy
 
 ### Step 1: Generate Augmented Dataset
 
-#### I augmented all of my data (random placement of fruits over random backgrounds) for the sake of convenience and speed that resulted in many domain gaps:
+#### I augmented all of my data (random placement of fruits over random backgrounds) for the sake of convenience that resulted in many domain gaps:
 - The model works best when fruits are thrown as this most similarly resembles the training data (no occlusions from your hands).
 - I also didn't attempt to add motion blur to the augmented data so if the fruit is thrown with a large velocity the mdoel will start to have detection issues.
 - The Lighing in the data varies a little bit and is something you can play with in  **augment_data.py**, I didn't vary this much for my runs (0.9 - 1.1)
