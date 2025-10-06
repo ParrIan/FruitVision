@@ -15,21 +15,6 @@ This project implements an end-to-end pipeline for fruit detection:
 
 ## Installation
 
-### Dependencies
-
-The project requires:
-- Python 3.8+
-- PyTorch
-- Ultralytics (YOLOv8)
-- OpenCV
-- PIL/Pillow
-- NumPy
-
-Install with:
-```bash
-pip install torch torchvision ultralytics opencv-python pillow numpy
-```
-
 ### Dataset Setup
 
 1. Download the [fruits-360 dataset](https://www.kaggle.com/datasets/moltean/fruits) and extract to `data/fruits-360/`
